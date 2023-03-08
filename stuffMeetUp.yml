@@ -1,0 +1,55 @@
+werewolf:
+  role:
+    gardien:
+      display:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+    barbare:
+      display:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 4
+            repair-cost: 1
+    maitre_archer:
+      display:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              ARROW_DAMAGE: 4
+    plongeur:
+      display:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DEPTH_STRIDER: 3
+    chasseur:
+      display:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              ARROW_DAMAGE: 3
+              ARROW_KNOCKBACK: 1
+

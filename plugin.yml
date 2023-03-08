@@ -1,0 +1,7 @@
+main: org.dragon.Main
+version: 0.0.1-SNAPSHOT
+name: LgAddonDragon
+description: Addons pour le plugin LG UHC 
+author: Dragon
+load: STARTUP
+depend : [WereWolfPlugin]
